@@ -39,19 +39,19 @@ import {
   
   const services = [
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum h",
       icon: web,
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum i",
       icon: mobile,
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum j",
       icon: backend,
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum k",
       icon: creator,
     },
   ];
@@ -101,7 +101,7 @@ import {
   
   const experiences = [
     {
-      title: " Lorem ipsum",
+      title: " Lorem ipsum a",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
@@ -112,7 +112,7 @@ import {
       ],
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum b",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -123,7 +123,7 @@ import {
       ],
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum c",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
@@ -134,7 +134,7 @@ import {
       ],
     },
     {
-      title: "Lorem ipsum",
+      title: "Lorem ipsum d",
       company_name: "Meta",
       icon: meta,
       iconBg: "#E6DEDD",
@@ -175,7 +175,7 @@ import {
   
   const projects = [
     {
-      name: "Lorem ipsum",
+      name: "Lorem ipsum e",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       tags: [
@@ -196,7 +196,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Lorem ipsum",
+      name: "Lorem ipsum f",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       tags: [
@@ -217,7 +217,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Lorem ipsum",
+      name: "Lorem ipsum g",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       tags: [
