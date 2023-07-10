@@ -1,8 +1,20 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useTypewriter } from "react-simple-typewriter"
 
 const Hero = () => {
+
+  const [text] = useTypewriter({
+    words: [
+      "développeur passioné",
+      "créateur de sites Web",
+      "résolveur de problèmes techniques",
+      "magicien du clavier",
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  })
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -15,11 +27,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Salut, moi c'est <span className="text-[#915EFF]">Maxime</span>
+            Salut, moi c'est <span className="animate-text bg-gradient-to-r from-green-500 via-violet-500 to-green-500 bg-clip-text text-transparent font-black">Maxime</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Je développe des sites internets, <br className="sm:block hidden" />
-            des applications et interfaces utilisateurs
+            Je suis un {text}
           </p>
         </div>
       </div>
