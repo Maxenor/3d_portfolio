@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { ma_photo } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -17,8 +18,10 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[250px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
-          <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
@@ -28,18 +31,41 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.heroSubText}>Introduction</p>
-        <h2 className={styles.heroHeadText}>Résumé</h2>
-      </motion.div>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        Je suis un developpeur web
-      </motion.p>
+      <div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      </div>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div
+        variants={fadeIn("", "", 0.1, 1)}
+        className="flex items-center min-[1000px]:flex-row flex-col-reverse"
+      >
+        <p className="mt-4 text-secondary text-[17px] min-[1000px]:max-w-lg w-full leading-[30px]">
+          Bienvenue sur mon site portfolio ! Je suis Maxime, un développeur
+          passionné de 25 ans. Mon parcours professionnel se concentre sur la
+          création d'applications et de sites web en utilisant des technologies
+          telles que C#, .NET, PHP et React. <br/><br/> J'apprécie relever les défis
+          techniques et trouver des solutions innovantes pour répondre aux
+          besoins de mes clients. <br/><br/>Mon expertise me permet de concevoir des
+          applications performantes, intuitives et esthétiquement agréables.
+          Explorez mon portfolio pour découvrir mes réalisations et n'hésitez
+          pas à me contacter pour toute collaboration future.
+        </p>
+
+        <Tilt className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14">
+          <div className="xs:w-[350px] w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card">
+            <div className="bg-tertiary rounded-[20px] min-h-[250px] flex justify-evenly items-center flex-col overflow-hidden">
+              <img
+                src={ma_photo}
+                alt="MyPhoto"
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+        </Tilt>
+      </div>
+
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import icon_php from "./icon_php.png";
+import icon_csharp from "./icon_csharp.png";
+import icon_react from "./icon_react.png";
+import icon_web from "./icon_web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import ma_photo from "./ma_photo.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,13 +31,14 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  icon_php,
+  icon_csharp,
+  icon_react,
+  icon_web,
   github,
   menu,
   close,
+  ma_photo,
   css,
   docker,
   git,

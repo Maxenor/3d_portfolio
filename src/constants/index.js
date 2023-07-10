@@ -1,8 +1,8 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
+    icon_php,
+    icon_csharp,
+    icon_react,
+    icon_web,
     javascript,
     html,
     css,
@@ -37,20 +37,20 @@ import {
   
   const services = [
     {
-      title: "Lorem ipsum h",
-      icon: web,
+      title: "Développeur Web",
+      icon: icon_web,
     },
     {
-      title: "Lorem ipsum i",
-      icon: mobile,
+      title: "Développeur React",
+      icon: icon_react,
     },
     {
-      title: "Lorem ipsum j",
-      icon: backend,
+      title: "Développeur C#/ASP .NET",
+      icon: icon_csharp,
     },
     {
-      title: "Lorem ipsum k",
-      icon: creator,
+      title: "Développeur PHP",
+      icon: icon_php,
     },
   ];
   
