@@ -8,14 +8,12 @@ import {
     css,
     reactjs,
     tailwind,
-    nodejs,
-    mongodb,
+    php,
+    csharp,
+    dotnet,
     git,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    trhea,
     carrent,
     jobit,
     tripguide,
@@ -78,12 +76,16 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Csharp",
+      icon: csharp,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Dotnet",
+      icon: dotnet,
+    },
+    {
+      name: "Php",
+      icon: php,
     },
     {
       name: "Three JS",
@@ -101,49 +103,17 @@ import {
   
   const experiences = [
     {
-      title: " Lorem ipsum a",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Technicien ERP",
+      company_name: "T'Rhea - Viandes de Bresse",
+      icon: trhea,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Août 2020 - Septembre 2023",
       points: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       ],
     },
-    {
-      title: "Lorem ipsum b",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      ],
-    },
-    {
-      title: "Lorem ipsum c",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      ],
-    },
-    {
-      title: "Lorem ipsum d",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      ],
-    },
+    // TODO: ajouter experiences ici
   ];
   
   const testimonials = [
@@ -154,22 +124,6 @@ import {
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -237,6 +191,7 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    // TODO: ajouter projets ici
   ];
   
   export { services, technologies, experiences, testimonials, projects };

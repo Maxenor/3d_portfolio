@@ -12,13 +12,14 @@ import docker from "./tech/docker.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import csharp from "./tech/csharp.png";
+import php from "./tech/php.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import dotnet from "./tech/dotnet.png";
 
-import meta from "./company/github.png";
+import trhea from "./company/trhea.svg";
 import shopify from "./company/github.png";
 import starbucks from "./company/github.png";
 import tesla from "./company/github.png";
@@ -41,12 +42,13 @@ export {
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
+  csharp,
+  dotnet,
+  php,
   reactjs,
   tailwind,
   threejs,
-  meta,
+  trhea,
   shopify,
   starbucks,
   tesla,
