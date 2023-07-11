@@ -7,7 +7,7 @@ const Hero = () => {
 
   const [text] = useTypewriter({
     words: [
-      "développeur passioné",
+      "développeur passionné",
       "créateur de sites Web",
       "résolveur de problèmes techniques",
       "magicien du clavier",

@@ -32,8 +32,8 @@ const About = () => {
   return (
     <>
       <div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Qui suis-je ?</p>
+        <h2 className={styles.sectionHeadText}>Introduction</h2>
       </div>
 
       <div
@@ -41,14 +41,14 @@ const About = () => {
         className="flex items-center min-[1000px]:flex-row flex-col-reverse"
       >
         <p className="mt-4 text-secondary text-[17px] min-[1000px]:max-w-lg w-full leading-[30px]">
-          Bienvenue sur mon site portfolio ! Je suis Maxime, un développeur
+          Bienvenue sur mon site ! Je suis Maxime, un développeur
           passionné de 25 ans. Mon parcours professionnel se concentre sur la
           création d'applications et de sites web en utilisant des technologies
           telles que C#, .NET, PHP et React. <br/><br/> J'apprécie relever les défis
           techniques et trouver des solutions innovantes pour répondre aux
-          besoins de mes clients. <br/><br/>Mon expertise me permet de concevoir des
+          besoins de mes clients. <br/>Mon expertise me permet de concevoir des
           applications performantes, intuitives et esthétiquement agréables.
-          Explorez mon portfolio pour découvrir mes réalisations et n'hésitez
+          <br/><br/>Explorez mon portfolio pour découvrir mes réalisations et n'hésitez
           pas à me contacter pour toute collaboration future.
         </p>
 
